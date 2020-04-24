@@ -7,26 +7,24 @@
   Unnati : The Knowledge Hub For Civil Aspirants
 </h1>
 
-Unnati: The Knowledge Hub For Civil Aspirants is a not for profit organisation registered under the government of India.  Unnati aims at providing free guidance to those UPSC aspirants who have knowledge and talent but lack adequate resources.
-
+Unnati: The Knowledge Hub For Civil Aspirants is a not for profit organisation registered under the government of India. Unnati aims at providing free guidance to those UPSC aspirants who have knowledge and talent but lack adequate resources.
 
 ## 🚀 Quick start
 
- **Clone the repo.**
+**Clone the repo.**
 
-   Clone the repo and run yarn to get started.
+Clone the repo and run yarn to get started.
 
     # git clone https://github.com/ajinkabeer/Unnati.git
     # cd unnati
-    # yarn 
+    # yarn
 
-   Start up the server to get started.
+Start up the server to get started.
 
     # cd unnati
-    # gatsby start 
-    
+    # gatsby start
 
-  **Open the source code and start editing!**
+**Open the source code and start editing!**
 
     Your site is now running at http://localhost:3000
 
@@ -44,7 +42,7 @@ A quick look at the top-level files and directories you'll see in this project.
       ├── pages
       ├── templates
     ├── static
-    ├── .gitignore    
+    ├── .gitignore
     ├── .prettierrc
     ├── gatsby-browser.js
     ├── gatsby-config.js
@@ -54,8 +52,6 @@ A quick look at the top-level files and directories you'll see in this project.
     ├── package-lock.json
     ├── package.json
     └── README.md
-
-
 
 ## 💫 Deploy
 
