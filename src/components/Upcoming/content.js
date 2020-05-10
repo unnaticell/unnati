@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import ImageGallery from "react-image-gallery"
 import Styles from "../../css/about.module.css"
-import { behtar, mun, uth } from "./links"
+import { behtar, mun, uth, pSession } from "./links"
 
 class content extends Component {
   render() {
