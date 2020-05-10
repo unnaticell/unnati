@@ -8,6 +8,73 @@ class content extends Component {
   render() {
     return (
       <div>
+      
+      <section className={Styles.about} style={{ marginTop: -50 }}>
+          <div className={Styles.aboutCenter}>
+            <article className={Styles.aboutImg}>
+              <div>
+                <ImageGallery
+                  items={pSession}
+                  showPlayButton={false}
+                  showFullscreenButton={false}
+                  showIndex={false}
+                  infinite={false}
+                />
+              </div>
+            </article>
+            <article className={Styles.aboutInfo}>
+              <h5>Personality Development Session</h5>
+              <p>
+                {" "}
+                An Investment in your personal development is the best
+                investment you can make.
+              </p>
+              <p>
+                While coming to a certain age, everyone fears for personality
+                development and searches for personality development tips.
+                Everyone has its own qualities and traits which make him/her
+                unique. But still, everyone tries to improve his persona, that’s
+                when personality development comes in.
+              </p>
+              <p>
+                Here, you got an opportunity to get some guidance regarding it.
+                Unnati: The knowledge hub for civil aspirants is organising a
+                live session on Personality Development by Archana Sood on the
+                official page of Unnati on 10th May at 4-5 p.m.
+              </p>
+              <p>
+                Her Achievements and Working Experiences A Gold Medalist from
+                University of Delhi for the 1st rank in B.A. (Hons.) English-
+                2015 Cmpleted Advanced Diploma in German language from DU in
+                2015. Worked as a Corporate English Language Trainer with
+                English -Mate-an enterprise of Hindustan Times. 3 years of
+                experience in teaching academic English. A Web Developer:
+                Developed the entire website of Revamp Hair Internationals
+                (2018).
+              </p>
+              <p>
+                She is really very skilled personality. It will be really very
+                fruitful to listen her as you will also get to know about some
+                some other career options and also she will share her own
+                experience. There are benefits of attending this session as you
+                will learn to boost your confidence, by one will develop good
+                communication skills which is the most important part of the
+                personality development in today's curriculum.
+              </p>
+              <p>
+                So, be on time, get ready for such a wonderful and inspiring
+                session on 10th May at 4-5 p.m. by Archana Sood at
+              </p>
+              <a
+                className="btn-primary"
+                href="  https://www.facebook.com/unnaticell/"
+              >
+                Facebook
+              </a>
+            </article>
+          </div>
+        </section>
+    
         <section className={Styles.about} style={{ marginTop: -50 }}>
           <div className={Styles.aboutCenter}>
             <article className={Styles.aboutImg}>
@@ -23,7 +90,7 @@ class content extends Component {
             </article>
             <article className={Styles.aboutInfo}>
               <h5>Mahapanchayat MUN</h5>
-      <p>18th and 19th of April, 2020</p>
+      <p>To be announced later</p>
       <p>Venue: GD Goenka Public School, Great Noida</p>
               <p>
                 {" "}
