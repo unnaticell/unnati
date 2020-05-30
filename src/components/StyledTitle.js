@@ -1,18 +1,18 @@
-import React from 'react'
-import Styled from 'styled-components'
+import React from "react"
+import Styled from "styled-components"
 
-const Title = ({title,subtitle}) => {
-  return(
+const Title = ({ title, subtitle }) => {
+  return (
     <TitleWrapper>
-    <h4>
-    <span className="title">{title}</span>
-    <span>{ subtitle}</span>
-    </h4>
+      <h4>
+        <span className="title">{title}</span>
+        <span>{subtitle}</span>
+      </h4>
     </TitleWrapper>
   )
 }
 
-const TitleWrapper = Styled.div `
+const TitleWrapper = Styled.div`
 text-transform:uppercase;
 font-size:2.3 rem;
 margin-bottom:2rem;
@@ -36,4 +36,4 @@ span{
 }
 `
 
-export default Title;
+export default Title

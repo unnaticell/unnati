@@ -1,6 +1,11 @@
 import React from "react"
 import {
-  FaFacebook, FaTwitterSquare, FaInstagram, FaEnvelope,FaPhoneSquare,FaLinkedinIn
+  FaFacebook,
+  FaTwitterSquare,
+  FaInstagram,
+  FaEnvelope,
+  FaPhoneSquare,
+  FaLinkedinIn,
 } from "react-icons/fa"
 export default [
   {
@@ -17,14 +22,15 @@ export default [
   },
   {
     icon: <FaEnvelope />,
-    url:'https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=upsc.cell.du@gmail.com'
+    url:
+      "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=upsc.cell.du@gmail.com",
   },
   {
     icon: <FaLinkedinIn />,
-    url:'https://in.linkedin.com/company/upsc'
+    url: "https://in.linkedin.com/company/upsc",
   },
   {
     icon: <FaPhoneSquare />,
-    url:'https://www.truecaller.com/search/in/8510090907'
-  }
+    url: "https://www.truecaller.com/search/in/8510090907",
+  },
 ]

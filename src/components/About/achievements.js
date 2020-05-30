@@ -53,7 +53,7 @@ const achievements = () => {
                   width: "85%",
                   marginTop: -15,
                 }}
-                alt='mountain-unnati'
+                alt="mountain-unnati"
               ></img>
             </div>
           </article>
@@ -85,7 +85,7 @@ const achievements = () => {
                   width: "50%",
                   marginTop: "-3%",
                 }}
-                alt='newspaper-cutout'
+                alt="newspaper-cutout"
               ></img>
             </div>
           </article>

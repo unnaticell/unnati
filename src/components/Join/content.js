@@ -9,9 +9,7 @@ const content = () => {
   return (
     <>
       <div className={Styles2.center}>
-        <article className={Styles2.article}>
-         
-        </article>
+        <article className={Styles2.article}></article>
       </div>
       <section className={Styles.about}>
         <div className={Styles.aboutCenter}>

@@ -3,7 +3,6 @@ import axios from "axios"
 import "react-image-gallery/styles/css/image-gallery.css"
 import ImageGallery from "react-image-gallery"
 
-
 class album extends React.Component {
   state = {
     images: null,
@@ -22,10 +21,17 @@ class album extends React.Component {
     }
   }
 
-
   render() {
     const { images } = this.state
-    return <ImageGallery items={images} autoPlay={true} showPlayButton={false} slideDuration={50} lazyLoad={false} /> 
+    return (
+      <ImageGallery
+        items={images}
+        autoPlay={true}
+        showPlayButton={false}
+        slideDuration={50}
+        lazyLoad={false}
+      />
+    )
   }
 }
 export default album

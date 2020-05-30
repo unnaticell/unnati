@@ -35,19 +35,11 @@ const Contact = props => {
 
           <div>
             <label htmlFor="name">Contact</label>
-            <input
-              name="number"
-              id="number"
-              className={Styles.formControl}
-             />
+            <input name="number" id="number" className={Styles.formControl} />
           </div>
           <div>
             <label htmlFor="website">Website</label>
-            <input
-              name="website"
-              id="website"
-              className={Styles.formControl}
-             />
+            <input name="website" id="website" className={Styles.formControl} />
           </div>
           <div>
             <label htmlFor="message">Message</label>

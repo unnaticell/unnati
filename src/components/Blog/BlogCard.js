@@ -1,7 +1,7 @@
-import React from 'react'
-import styles from '../../css/blog-card.module.css'
-import Image from 'gatsby-image'
-import { Link } from 'gatsby'
+import React from "react"
+import styles from "../../css/blog-card.module.css"
+import Image from "gatsby-image"
+import { Link } from "gatsby"
 
 const BlogCard = ({ blog }) => {
   const { slug, title, image, publishedDate } = blog
