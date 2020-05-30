@@ -9,6 +9,11 @@ import Title from "../components/StyledTitle"
 const articles = props => {
   const { currentPage, numPages } = props.pageContext
   const { data } = props
+  const nextPage = `/article/${currentPage + 1}`
+  const prevPage =
+    currentPage - 1 === 1 ? `/article` : `/article/${currentPage - 1}`
+  const isFirstPage = currentPage === 1
+  const isLastPage = currentPage === numPages
   return (
     <Layout>
       <section className={styles.blog}>
@@ -19,7 +24,12 @@ const articles = props => {
           })}
         </div>
         <section className={styles.links}>
-          {Array.from({ length: numPages }, (_, i) => {
+          {!isFirstPage && (
+            <AniLink to={prevPage} className={styles.link}>
+              Previous
+            </AniLink>
+          )}
+          {Array.from({ length: 4 }, (_, i) => {
             return (
               <AniLink
                 key={i}
@@ -34,6 +44,18 @@ const articles = props => {
               </AniLink>
             )
           })}
+          {currentPage >= 5 ? (
+            <AniLink className={`${styles.link} ${styles.active}`}>
+              {currentPage}
+            </AniLink>
+          ) : (
+            ""
+          )}
+          {!isLastPage && (
+            <AniLink to={nextPage} className={styles.link}>
+              Next
+            </AniLink>
+          )}
         </section>
       </section>
     </Layout>

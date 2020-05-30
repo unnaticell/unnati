@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://unnaticell.com/">
-    <img alt="Unnati" src="https://unnati.netlify.com/static/logo-2ac21394a0a0f54f0971881bea24caa8.jpg" width="60" />
+    <img alt="Unnati" src="./src/images/logo.jpg" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -56,5 +56,3 @@ A quick look at the top-level files and directories you'll see in this project.
 ## 💫 Deploy
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d0035568-5c29-4b15-b48a-b7c313890555/deploy-status)](https://app.netlify.com/sites/zen-raman-4a436b/deploys)
-
- 
