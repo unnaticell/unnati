@@ -6,10 +6,12 @@ import Styles2 from "../css/single-blog.module.css"
 import ImageGallery from "react-image-gallery"
 import { satta, uthans, uthan4, uthan3 } from "../components/uthanLinks"
 import Album from "../components/album"
+import SEO from "../components/SEO"
 
 const uthan = () => {
   return (
     <Layout>
+      <SEO title="Uthan" description="Details about Uthan Branch" />
       <section className={Styles.about}>
         <Title title="about" subtitle="Uthan Youth Parliament" />
         <div className={Styles2.center}>

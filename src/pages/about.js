@@ -8,10 +8,12 @@ import Team from "../components/About/team"
 import Patrons from "../components/About/patrons"
 import Achievements from "../components/About/achievements"
 import JourneySoFar from "../components/About/journey"
+import SEO from "../components/SEO"
 
 const about = () => {
   return (
     <Layout>
+      <SEO title="About" description="Details about Unnati" />
       <section className={Styles.about}>
         <Title title="about" subtitle="us" />
         <Abouts />

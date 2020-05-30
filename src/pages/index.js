@@ -7,9 +7,14 @@ import Services from "../components/Home/Services"
 import Styledhero from "../components/Styledhero"
 import { graphql } from "gatsby"
 import Collaborate from "../components/Contact/Contact"
+import SEO from "../components/SEO"
 
 export default ({ data }) => (
   <Layout>
+    <SEO
+      title="Unnati"
+      description="Unnati: The knowledge hub for civil aspirants"
+    />
     <Styledhero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner title="Unnati">
         <h3>The Knowledge Hub For Civil Aspirants</h3>

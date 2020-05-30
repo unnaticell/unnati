@@ -7,8 +7,12 @@ module.exports = {
     title: "Unnati",
     description: "A Knowledge Hub For Civil Aspirants",
     author: "@Unnati",
+    twitterUsername: "@unnaticell",
+    image: "/logo.png",
+    siteUrl: "https://unnaticell.com",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
